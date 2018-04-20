@@ -1,0 +1,84 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Basic Test Cases" thread-count="2" parallel="test">
+    
+   <!--  <test name="to run package">
+        <packages>
+            <package name="com.selenium.testng.basics"></package>
+        </packages>
+    </test> -->
+    
+    <!-- <test name="test1">
+         <classes>
+             <class name="com.selenium.testng.basics.AnnotationSample"></class>
+             <class name="com.selenium.testng.basics.BeforeMethodSample"></class>
+         </classes>
+    </test>
+    
+     <test name="test2">
+         <classes>
+             <class name="com.selenium.testng.basics.TestAnnotationSamples"></class>
+         </classes>
+    </test> -->
+    
+    <!-- <test name="to run method">
+        <classes>
+            
+            <class name="com.selenium.testng.basics.AnnotationSample">
+                
+                <methods>
+                    <include name="TEST_02"></include>
+                </methods>
+                
+            </class>
+            
+        </classes>
+    </test> -->
+    
+    <!-- <test name="to run groups">
+        <groups>
+   			 <run>
+   			   <include name="x"/>
+   			   
+  			 </run>
+  		</groups>
+  		<classes>
+  			  <class name="com.selenium.testng.basics.AnnotationSample"/>
+  			  
+  		</classes>
+    </test> -->
+    
+    <parameter name="testing" value="sampleData"></parameter>
+    <parameter name="testing1" value="sampleData1"></parameter>
+    
+    <test name="t1">
+         <classes>
+             <class name="com.selenium.testng.basics.ParameterSamples"></class>
+         </classes>
+    </test>
+    
+    
+    <test name="t2">
+         <classes>
+             <class name="com.selenium.testng.basics.AnnotationSample"></class>
+         </classes>
+    </test>
+    
+     <test name="t3">
+         <classes>
+             <class name="com.selenium.testng.basics.ParameterSamples"></class>
+         </classes>
+    </test>
+    
+    
+    <test name="t4">
+         <classes>
+             <class name="com.selenium.testng.basics.AnnotationSample"></class>
+         </classes>
+    </test>
+    
+    
+    
+    
+    
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Basic Test Cases]">
+  <parameter name="brows" value="ie"/>
+  <test name="t2(failed)">
+    <parameter name="brows" value="chrome"/>
+    <classes>
+      <class name="com.selenium.testng.basics.TestMultipleBrowserSamples">
+        <methods>
+          <include name="x1"/>
+          <include name="y"/>
+          <include name="x1"/>
+          <include name="x1"/>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- com.selenium.testng.basics.TestMultipleBrowserSamples -->
+    </classes>
+  </test> <!-- t2(failed) -->
+  <test name="t3(failed)">
+    <parameter name="brows" value="ie"/>
+    <classes>
+      <class name="com.selenium.testng.basics.TestMultipleBrowserSamples">
+        <methods>
+          <include name="x1"/>
+          <include name="y"/>
+          <include name="x1"/>
+          <include name="x1"/>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- com.selenium.testng.basics.TestMultipleBrowserSamples -->
+    </classes>
+  </test> <!-- t3(failed) -->
+</suite> <!-- Failed suite [Basic Test Cases] -->

@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Basic Test Cases" >
+    
+    
+    <test name="t1">
+        <parameter name="brows" value="firefox"></parameter>
+         <classes>
+             <class name="com.selenium.testng.basics.TestMultipleBrowserSamples"></class>
+         </classes>
+    </test>
+    
+    
+    <test name="t2">
+        <parameter name="brows" value="chrome"></parameter>
+         <classes>
+             <class name="com.selenium.testng.basics.TestMultipleBrowserSamples"></class>
+         </classes>
+    </test>
+    
+     <test name="t3">
+         <parameter name="brows" value="ie"></parameter>
+         <classes>
+             <class name="com.selenium.testng.basics.TestMultipleBrowserSamples"></class>
+         </classes>
+    </test>
+    
+    
+    
+    
+    
+</suite>
