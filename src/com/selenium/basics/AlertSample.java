@@ -11,8 +11,8 @@ public class AlertSample {
 
 	public static void main(String[] args) {
 		
-		 Logger log = Logger.getLogger("devpinoyLogger");
-		
+		 Logger log = Logger.getLogger("devpinoyLogger"); 
+		System.out.println("hi");
 		System.setProperty("webdriver.gecko.driver", "E:\\software\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://localhost/product/admin/login.php");
